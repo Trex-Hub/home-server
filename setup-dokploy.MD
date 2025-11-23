@@ -18,4 +18,5 @@ curl -sSL https://dokploy.com/install.sh | sh
 ## Step 2: Initial Configuration
 
 Create an Admin Account: Fill in the necessary details to set up your administrator account. This account will be the admin account for Dokploy.
+<br />
  <img src="./dokploy-setup.png" alt="Dokploy Setup" width="90%"/>
