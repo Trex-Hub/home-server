@@ -1,0 +1,11 @@
+namespace: cloudflare
+
+helmDefaults:
+  createNamespace: true
+
+releases:
+  - name: cloudflare-tunnel
+    chart: ./templates/cloudflare/charts/cloudflare-tunnel-remote
+    namespace: cloudflare
+    values:
+      - cloudflare-tunnel/values.yaml
