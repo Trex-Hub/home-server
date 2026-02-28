@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "skills": {
+    "argocd-expert": {
+      "source": "personamanagmentlayer/pcl",
+      "sourceType": "github",
+      "computedHash": "2c5d71cc3d0d7154d11e6bac61cd531f4d8fd0ca0cd7e90d5fa29fbabe0ebce4"
+    },
+    "devops-engineer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "computedHash": "efd7d477e1964f2288214c44e6b52c1576cd690080738e6e6525a37668220047"
+    },
+    "kubernetes-specialist": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "computedHash": "5649a06b54a2327d930e7473912b23e111afc0e84160b88842bb42b954725ea2"
+    }
+  }
+}
