@@ -1,0 +1,9 @@
+apiVersion: v2
+name: playit
+description: Deployment of a playit.gg agent for exposing game servers without port forwarding
+
+type: application
+
+version: 0.1.0
+
+appVersion: "latest"

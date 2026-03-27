@@ -1,0 +1,25 @@
+minecraftServer:
+  eula: "TRUE"
+  onlineMode: false
+  memory: 3584M
+  # Uncomment and set to pin a specific version:
+  version: LATEST
+  # Server type: VANILLA, PAPER, FABRIC, FORGE, etc.
+  type: FABRIC
+
+persistence:
+  dataDir:
+    enabled: true
+    size: 10Gi
+    # storageClass not set → uses k3s default "local-path" provisioner
+    # Note: local-path is node-local; data survives pod restarts but not node failure
+
+serviceType: ClusterIP
+
+resources:
+  requests:
+    cpu: 250m
+    memory: 512Mi
+  limits:
+    cpu: 3000m
+    memory: 4096Mi

@@ -1,0 +1,11 @@
+namespace: minecraft
+
+helmDefaults:
+  createNamespace: true
+
+releases:
+  - name: playit
+    chart: ./templates/playit
+    namespace: minecraft
+    values:
+      - playit/values.yaml

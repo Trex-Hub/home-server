@@ -1,0 +1,13 @@
+playit:
+  # Get your secret key from: https://playit.gg/account/agents
+  # Then configure a Minecraft tunnel in the playit.gg dashboard with:
+  #   Local address: minecraft.minecraft.svc.cluster.local:25565
+  secretKey: "5ab87b06baab862766918c8d79d584973d7d9a0eea0c680a3f6058dbf68eb92b"  # TODO: fill in your playit.gg agent secret key
+
+resources:
+  requests:
+    cpu: 50m
+    memory: 32Mi
+  limits:
+    cpu: 100m
+    memory: 64Mi

@@ -1,0 +1,26 @@
+playit:
+  secretKey: ""
+
+image:
+  repository: ghcr.io/playit-cloud/playit-agent
+  pullPolicy: IfNotPresent
+  tag: ""
+
+replicaCount: 1
+
+nameOverride: ""
+fullnameOverride: ""
+
+serviceAccount:
+  annotations: {}
+  name: ""
+
+podAnnotations: {}
+
+resources: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}

@@ -1,0 +1,14 @@
+namespace: minecraft
+
+helmDefaults:
+  createNamespace: true
+
+repositories:
+  - name: itzg
+    url: https://itzg.github.io/minecraft-server-charts/
+
+releases:
+  - name: minecraft
+    chart: itzg/minecraft
+    values:
+      - minecraft/values.yaml
