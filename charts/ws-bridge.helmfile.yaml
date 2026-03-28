@@ -1,0 +1,11 @@
+namespace: minecraft
+
+helmDefaults:
+  createNamespace: true
+
+releases:
+  - name: ws-bridge
+    chart: ./templates/ws-bridge
+    namespace: minecraft
+    values:
+      - ws-bridge/values.yaml

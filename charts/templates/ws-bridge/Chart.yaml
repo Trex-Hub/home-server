@@ -1,0 +1,9 @@
+apiVersion: v2
+name: ws-bridge
+description: TCP-over-WebSocket bridge for Minecraft Java Edition via Cloudflare Tunnel
+
+type: application
+
+version: 0.1.0
+
+appVersion: "2-alpine"

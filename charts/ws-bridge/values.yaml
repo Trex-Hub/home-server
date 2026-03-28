@@ -1,0 +1,19 @@
+image:
+  repository: denoland/deno
+  pullPolicy: IfNotPresent
+  # Pinned to the Deno version used during development. Update deliberately.
+  tag: "2.7.9-alpine"
+
+replicaCount: 2
+
+minecraft:
+  host: minecraft.minecraft.svc.cluster.local
+  port: 25565
+
+resources:
+  requests:
+    cpu: 50m
+    memory: 64Mi
+  limits:
+    cpu: 200m
+    memory: 128Mi

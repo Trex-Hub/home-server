@@ -1,0 +1,29 @@
+image:
+  repository: denoland/deno
+  pullPolicy: IfNotPresent
+  tag: ""
+
+replicaCount: 2
+
+nameOverride: ""
+fullnameOverride: ""
+
+serviceAccount:
+  annotations: {}
+
+podAnnotations: {}
+
+service:
+  port: 8080
+
+minecraft:
+  host: minecraft.minecraft.svc.cluster.local
+  port: 25565
+
+resources: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
